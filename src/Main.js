@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import './Main.css';
+//import * as main_view from './view/main_view.js';
+var main_view = require('./view/main_view.js');
+
 
 class Main extends Component {
+
   state = {}
 
   render() {
@@ -14,7 +18,7 @@ class Main extends Component {
             <p id="searchName"> Search </p>
             <div id="input_box">
                 <input type="text" placeholder=" " id="req-text" onKeydown="AutoFunction();" />
-                <button type="button" id="search" onClick="">Click</button>
+                <button type="button" id="search" onClick={main_view.asd}>Click</button>
             </div>
           </p>
         </div>
