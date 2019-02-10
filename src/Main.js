@@ -20,8 +20,11 @@ class Main extends Component {
         </div>
         <div className="App-right">
           <div className="App-right-top">
-            <p className="bioTitle"> ksdfjdsnkjf </p>
-            <p className="bioSubtitle"> dkjnsdf </p>
+            <p className="bioTitle"> I dont know what to put here </p>
+            <p className="bioSubtitle"> lmao </p>
+            <p>
+              <img src={require("./puff.png")} alt="CroppedPhoto" className="croppedPhoto" />
+            </p>
           </div>
           <div className="App-right-bottom">
             <p> More detailed description </p>

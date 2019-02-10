@@ -5,28 +5,31 @@
 .App-body {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   background-color: #282c34;
 }
 
 .App-left {
   font-size: large;
-  width: 50vh;
+  /* width: 50vh; */
   height: 100vh;
   padding: 10px;
-  /* background-color: orange; */
+  background-color: orange;
   color: #00BFFF;
+  /* color: orange; */
+  border-radius: 10px;
 }
 
 .App-right {
   font-size: large;
-  width: 100vh;
+  width: 200vh;
   height: 100vh;
   padding: 10px;
   /* background-color: yellow; */
   display: flex;
   flex-direction: column;
-  color: #00BFFF;
+  /* color: #00BFFF; */
+  color: orange;
 }
 
 .App-right-top {
