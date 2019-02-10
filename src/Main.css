@@ -1,0 +1,46 @@
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #282c34;
+}
+
+.App-left {
+  font-size: large;
+  width: 50vh;
+  height: 100vh;
+  padding: 10px;
+  /* background-color: orange; */
+  color: #00BFFF;
+}
+
+.App-right {
+  font-size: large;
+  width: 100vh;
+  height: 100vh;
+  padding: 10px;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  color: #00BFFF;
+}
+
+.App-right-top {
+
+}
+
+.bioTitle {
+  font-size: xx-large;
+  margin-bottom: 5px;
+}
+
+.App-right-bottom {
+
+}
+
+.croppedPhoto {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
