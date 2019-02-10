@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-
 export function asd(){
-    console.log("Aaaaaaaaaaaaaaaaaa");
+    var search = document.getElementById("req-text").value;
+    console.log(search);
 }
