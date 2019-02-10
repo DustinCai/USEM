@@ -1,0 +1,41 @@
+#searchBar {
+    justify-content: flex-start;
+    border-radius: 10%;
+    background-color: #282c34;
+}
+
+#input_box{
+    padding:0,0,15px,0;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  background-color: #282c34;
+}
+
+.App-top {
+  font-size: large;
+  width: 200vh;
+  height: 100vh;
+  padding: 10px;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  /* color: #00BFFF; */
+  color: orange;
+}
+
+
+.bioTitle {
+  font-size: xx-large;
+  margin-bottom: 5px;
+}
+
+
+.croppedPhoto {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
