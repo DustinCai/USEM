@@ -9,7 +9,7 @@ class Navbar extends Component {
     return(
       <div className="App-header">
         <header>
-          <h1 className="App-title">Our Website</h1>
+          <h1 className="App-title">University Second-hand Marketplace</h1>
         </header>
         <div className="navbar-navbar-light-bg-light">
           <a className="Home" href="#">Home</a>

@@ -1,3 +1,6 @@
+#searchName{
+    justify-content: flex-start;
+}
 
 .App-body {
   display: flex;

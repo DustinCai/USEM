@@ -11,6 +11,11 @@ class Main extends Component {
           <p>
             {// {<input type="text" placeholder="Search..."><input/>}
             }
+            <p id="searchName"> Search </p>
+            <div id="input_box">
+                <input type="text" placeholder=" " id="req-text" onKeydown="AutoFunction();" />
+                <button type="button" id="search" onClick="">Click</button>
+            </div>
           </p>
         </div>
         <div className="App-right">
